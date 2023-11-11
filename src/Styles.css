@@ -1,0 +1,79 @@
+@font-face {
+    font-family: CabinSketch;
+    src: url('./fonts/Cabin_Sketch/CabinSketch-Bold.ttf');
+}
+
+.banner{
+    background-color:#D4CDFF;
+    text-align: center;
+    justify-content: center;
+    padding:1.5em;
+    border-radius: 20px;
+    font-family: 'CabinSketch';
+    font-size: larger;
+}
+.addTodo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    border: 12px;
+    margin:12px
+}
+.textField{
+    width: 400px;
+    font-family: CabinSketch;
+    font-size: x-large;
+}
+.addButton{
+    background-color: #D4CDFF;
+    
+    border:1px,solid,black;
+    
+    padding:12px;
+    width: auto;
+    font-size: large;
+}
+.addButton:hover{
+   background-color: greenyellow;
+   
+}
+.todoItems{
+    display: flex;
+       
+        
+        font-family: CabinSketch;
+        font-size: x-large;
+        background-color: blanchedalmond;
+}
+.del
+{   margin: 8px;
+    background-color: red;
+    padding:12px;
+    height: 50px;
+}
+.edit{
+    background-color: aquamarine;
+    padding: 12px;
+    margin: 8px;
+    height: 50px;
+}
+.done{
+    background-color: green;
+    padding: 12px;
+    margin: 8px;
+    height: 50px;
+}
+.notdone{background-color: red;
+    padding: 12px;
+    margin: 8px;
+    height: 50px;
+    
+}
+.todoDiv
+{
+    display: flex;
+    text-align: center;
+       justify-content: left;
+       
+}
